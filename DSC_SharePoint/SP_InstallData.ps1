@@ -1,4 +1,4 @@
-﻿configuration DSC_Install
+﻿configuration DSC_SP_Install
 {
 
 Import-DscResource -ModuleName xWebAdministration, SharePointDSC, xPendingReboot, xDownloadISO, xDownloadFile, PSDesiredStateConfiguration
